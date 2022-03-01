@@ -4,4 +4,7 @@ enum Cores {
   AMARELO,
 }
 
-console.log(Cores[0]);
+enum Cores2 {
+  ROXO = 'ROXO',
+}
+console.log(Cores2.ROXO);
