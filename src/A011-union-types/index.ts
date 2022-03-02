@@ -5,3 +5,10 @@ function addOrConcat(a: number | string, b: number | string): number | string {
 
 console.log(addOrConcat(1, 2));
 console.log(addOrConcat('10', '20'));
+
+let numberOrString: number | string;
+
+numberOrString = 10;
+numberOrString = 'Carlos';
+
+console.log(numberOrString);
