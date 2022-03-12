@@ -14,3 +14,5 @@ const carro: Car = {
   year: 2020,
   name: 'New Fiesta',
 };
+
+console.log(carro);
